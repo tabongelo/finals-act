@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/finals-act/static/css/main.ad578d21.css",
+    "main.js": "/finals-act/static/js/main.8283686b.js",
+    "static/js/787.bd5c5af6.chunk.js": "/finals-act/static/js/787.bd5c5af6.chunk.js",
+    "static/media/boracay1.jpg": "/finals-act/static/media/boracay1.9c4eea15b21ef937e633.jpg",
+    "static/media/Visayas.jpg": "/finals-act/static/media/Visayas.c2b724601ae1a66ad39f.jpg",
+    "static/media/6.jpg": "/finals-act/static/media/6.1dd2d9bc3d39b2204c8d.jpg",
+    "static/media/2.jpg": "/finals-act/static/media/2.f886ca05924b672f2c1a.jpg",
+    "static/media/mayon2.jpg": "/finals-act/static/media/mayon2.7c81dbfd497b10625513.jpg",
+    "static/media/Luzon.jpg": "/finals-act/static/media/Luzon.2ee47ebdda157a028b0f.jpg",
+    "static/media/mayon.jpg": "/finals-act/static/media/mayon.f29454b7cf9be2109d90.jpg",
+    "static/media/boracay.jpg": "/finals-act/static/media/boracay.e85e1fe5ca37831527b6.jpg",
+    "static/media/Mindanao.jpg": "/finals-act/static/media/Mindanao.a8c4d4d767970fbe307c.jpg",
+    "index.html": "/finals-act/index.html",
+    "main.ad578d21.css.map": "/finals-act/static/css/main.ad578d21.css.map",
+    "main.8283686b.js.map": "/finals-act/static/js/main.8283686b.js.map",
+    "787.bd5c5af6.chunk.js.map": "/finals-act/static/js/787.bd5c5af6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad578d21.css",
+    "static/js/main.8283686b.js"
+  ]
+}
