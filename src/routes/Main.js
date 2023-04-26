@@ -21,7 +21,7 @@ function Main (){
         <Trip/>
         <Footer/>
         </>
-    );
+    )
 }
 
 export default Main;
