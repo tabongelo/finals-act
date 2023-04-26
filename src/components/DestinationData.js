@@ -1,7 +1,5 @@
 import { Component } from "react";
 import "./DestinationStyle.css";
-import beach1 from "../assets/boracay.jpg"
-import beach2 from "../assets/boracay1.jpg"
 
 
 class DestinationData extends Component{
