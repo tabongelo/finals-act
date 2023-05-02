@@ -1,11 +1,13 @@
+import React from "react";
 import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
 
-function Main (){
-    return(
+const Main = () => {
+    return (
+        <div className="main">
         <>
         <Navbar />
         <Hero 
@@ -17,11 +19,12 @@ function Main (){
         url="/"
         btnClass="show"
         />
-        <Destination/>
-        <Trip/>
-        <Footer/>
+        <Destination />
+        <Trip />
+        <Footer />
         </>
-    )
-}
+        </div>
+    );
+};
 
 export default Main;

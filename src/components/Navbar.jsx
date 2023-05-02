@@ -1,24 +1,18 @@
 import React, { Component } from 'react';
-import "./NavbarStyle.css"
-import fire from '../config/fire';
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 import { Menu } from './Menu';
-
+import "./NavbarStyle.css";
 
 class Navbar extends Component{
     state = { clicked: false };
     handleClick = () =>{
         this.setState({ clicked: !this.state.clicked})
-    }
-    constructor(props){
-        super(props);
-        this.state ={
 
-        }
-    }
+    };
     logout = () => {
-        fire.auth().signOut();
-    }
+        window.location.href='/'
+    };
+
     render(){
         return(
             <div>
@@ -43,7 +37,7 @@ class Navbar extends Component{
             </nav>
             </div>
         )
-    }
-}
+    };
+};
 
-export default Navbar
+export default Navbar;

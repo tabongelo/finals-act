@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Route, Routes } from "react-router-dom";
-import fire from './config/fire';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Main from './routes/Main';
 import About from './routes/About';
@@ -14,9 +13,6 @@ export default class Home extends Component {
         this.state = {
 
         }
-    }
-    logout = () => {
-        fire.auth().signOut();
     }
     render() {
         return (

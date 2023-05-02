@@ -4,7 +4,7 @@ import AboutImg from "../assets/2.jpg"
 import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
 
-function About (){
+const About = () => {
     return(
         <>
         <Navbar />
@@ -13,7 +13,7 @@ function About (){
         <AboutUs/>
         <Footer/>
         </>
-    )
-}
+    );
+};
 
 export default About;

@@ -1,7 +1,7 @@
 export const Menu = [
     {
         title : "Home",
-        url : "/",
+        url : "/main",
         cName : "nav-links",
         icon : "fa-sharp fa-solid fa-house-user"
     },

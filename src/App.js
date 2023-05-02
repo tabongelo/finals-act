@@ -1,32 +1,38 @@
-import React, { Component } from 'react';
-import fire from './config/fire';
-import Home from './Home';
-import Login from './Login'
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Login from './pages/login/LoginPage';
+import Register from './pages/register/RegisterPage';
+import Main from "./routes/Main";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
 
-export default class App extends Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      user: {}
-    }
-  }
-  componentDidMount(){
-    this.authListener();
-  }
-  authListener(){
-    fire.auth().onAuthStateChanged((user)=>{
-      if(user){
-        this.setState({user})
-      }else{
-        this.setState({user:null})
-      }
-    })
-  }
-    render() {
-      return (
-        <div className="App">
-          {this.state.user ? (<Home />) : (<Login />)}
-        </div>
-      )
-  }
+function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Login />,
+    },
+    {
+      path: "/about",
+      element: <About />,
+    },
+    {
+      path: "/contact",
+      element: <Contact />,
+    },
+    {
+      path: "/main",
+      element: <Main />,
+    },
+    {
+      path: "/register",
+      element: <Register />,
+    },
+  ]);
+  return (
+    <div className="app">
+      <RouterProvider router={router} />
+    </div>
+  );
 }
+
+export default App;
