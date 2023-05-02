@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/finals-act/static/css/main.ad578d21.css",
-    "main.js": "/finals-act/static/js/main.8283686b.js",
-    "static/js/787.bd5c5af6.chunk.js": "/finals-act/static/js/787.bd5c5af6.chunk.js",
+    "main.css": "/finals-act/static/css/main.79512f80.css",
+    "main.js": "/finals-act/static/js/main.ba008d04.js",
     "static/media/boracay1.jpg": "/finals-act/static/media/boracay1.9c4eea15b21ef937e633.jpg",
     "static/media/Visayas.jpg": "/finals-act/static/media/Visayas.c2b724601ae1a66ad39f.jpg",
     "static/media/6.jpg": "/finals-act/static/media/6.1dd2d9bc3d39b2204c8d.jpg",
@@ -13,12 +12,11 @@
     "static/media/boracay.jpg": "/finals-act/static/media/boracay.e85e1fe5ca37831527b6.jpg",
     "static/media/Mindanao.jpg": "/finals-act/static/media/Mindanao.a8c4d4d767970fbe307c.jpg",
     "index.html": "/finals-act/index.html",
-    "main.ad578d21.css.map": "/finals-act/static/css/main.ad578d21.css.map",
-    "main.8283686b.js.map": "/finals-act/static/js/main.8283686b.js.map",
-    "787.bd5c5af6.chunk.js.map": "/finals-act/static/js/787.bd5c5af6.chunk.js.map"
+    "main.79512f80.css.map": "/finals-act/static/css/main.79512f80.css.map",
+    "main.ba008d04.js.map": "/finals-act/static/js/main.ba008d04.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad578d21.css",
-    "static/js/main.8283686b.js"
+    "static/css/main.79512f80.css",
+    "static/js/main.ba008d04.js"
   ]
 }
